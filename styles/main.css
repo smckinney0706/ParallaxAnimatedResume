@@ -1,0 +1,722 @@
+/*My Styles*/
+@font-face {
+    font-family: Gloss;
+    src: url(../fonts/Gloss_And_Bloom.ttf);
+}
+@font-face {
+    font-family: Beauty;
+    src: url(../fonts/Beauty.ttf);
+}
+@font-face {
+    font-family: Geo;
+    src: url(../fonts/GeosansLight.ttf);
+}
+@font-face {
+    font-family: Title;
+    src: url(../fonts/basictitlefont.ttf);
+}
+@font-face {
+    font-family: Lane;
+    src: url(../fonts/lane.ttf);
+}
+@font-face {
+    font-family: Stentiga;
+    src: url(../fonts/stentiga.ttf);
+}
+body, html {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	background-image: url("../images/gradient.png");
+	background-attachment: fixed;
+	height: 8000px;
+	background-color: #9ac8d8;
+	background-size: 100vw 100vh;
+}
+#scrollSpacer {
+	height: 8000px;
+}
+#background {
+	background-image: url("../images/background.png");
+	width: 100vw;
+	height: 8000px;
+	position: fixed;
+	background-repeat: no-repeat;
+}
+#footBackground {
+	background-color: #204530;
+    /* background-image: url(../images/background.png); */
+    width: 100vw;
+    height: 2500px;
+    position: absolute;
+    top: 7500px;
+    background-repeat: no-repeat;
+}
+#footText {
+	position: relative;
+    top: 1980px;
+    left: 0px;
+    font-family: Beauty;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+}
+#footHr {
+	position: relative;
+    top: 2020px;
+    width: 800px;
+    margin: auto;
+}
+#footText2 {
+	position: relative;
+    top: 2040px;
+    font-family: Stentiga;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+}
+#monkey {
+	width: 324.59px;
+	height: 512.98px;
+	background-image: url("../images/monkeySprite.png");
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	position: fixed;
+	left: 550px;
+	top: 180px;
+}
+#vine {
+	height: 10000px;
+	width: 56.8px;
+	background-image: url("../images/vine.png");
+	position: fixed;
+	left: 565px;
+	top: 0px;
+	background-size: contain;
+	background-repeat: repeat-y;
+}
+#monkeyBack {
+	width: 324.59px;
+	height: 512.98px;
+	background-image: url("../images/monkeySprite.png");
+	background-repeat: no-repeat;
+	background-position: 0px -512.98px;
+	position: fixed;
+	left: 555px;
+	top: 180px;
+}
+#heading {
+	/*font-family: Cali;*/
+	/*font-family: Gloss;*/
+	font-family: Stentiga;
+	font-size: 42px;
+	line-height: 40px;
+	position: absolute;
+	top: 30px;
+	left: 250px;
+	color: white;
+	font-size: 90px;
+	text-align: center;
+	padding-top: 10px;
+	width: 780px;
+}
+hr {
+	margin: 20px;
+	padding: 0px;
+	border: 3px solid white;
+
+}
+#subHead {
+	font-family: Beauty;
+	font-size: 52px;
+}
+#palmLeavesLeft {
+	width: 600px;
+    height: 600px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+#palmLeft1 {
+	width: 500px;
+    height: 430px;
+    margin-bottom: 200px;
+    background-image: url(../images/palmLeft1.png);
+    background-size: contain;
+    position: absolute;
+    left: -80px;
+    top: 20px;
+}
+#palmLeft2 {
+	width: 700px;
+    height: 700px;
+    margin-bottom: 200px;
+    background-image: url(../images/palmLeft2.png);
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    left: -100px;
+    top: 450px;
+}
+#palmLeft3 {
+	width: 600px;
+    height: 600px;
+    margin-bottom: 200px;
+    background-image: url(../images/palmLeft3.png);
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    left: -50px;
+    top: 1100px;
+}
+#palmLeft4 {
+	width: 500px;
+    height: 500px;
+    margin-bottom: 200px;
+    background-image: url(../images/palmLeft1.png);
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    left: -80px;
+    top: 1700px;
+}
+#palmLeft5 {
+	width: 700px;
+    height: 700px;
+    margin-bottom: 200px;
+    background-image: url(../images/palmLeft2.png);
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    left: -100px;
+    top: 2100px;
+}
+#palmLeft6 {
+	width: 600px;
+    height: 600px;
+    margin-bottom: 200px;
+    background-image: url(../images/palmLeft3.png);
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    left: -50px;
+    top: 2800px;
+}
+#palmLeft7 {
+	width: 700px;
+    height: 700px;
+    margin-bottom: 200px;
+    background-image: url(../images/palmLeft2.png);
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    left: -100px;
+    top: 3400px;
+}
+#palmLeft8 {
+	width: 500px;
+    height: 430px;
+    margin-bottom: 200px;
+    background-image: url(../images/palmLeft1.png);
+    background-size: contain;
+    position: absolute;
+    left: -80px;
+    top: 4100px;
+}
+#palmLeft9 {
+	width: 600px;
+    height: 600px;
+    margin-bottom: 200px;
+    background-image: url(../images/palmLeft3.png);
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    left: -50px;
+    top: 4500px;
+}
+#palmLeft10 {
+	width: 700px;
+    height: 700px;
+    margin-bottom: 200px;
+    background-image: url(../images/palmLeft2.png);
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    left: -160px;
+    top: 5100px;
+}
+#palmLeavesRight {
+	width: 600px;
+    height: 600px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+#palmRight1 {
+	width: 500px;
+    height: 450px;
+    margin-bottom: 200px;
+    background-image: url(../images/palmRight1.png);
+    background-size: contain;
+    position: absolute;
+    right: -80px;
+    top: 50px;
+}
+#palmRight2 {
+	width: 800px;
+    height: 800px;
+    margin-bottom: 200px;
+    background-image: url(../images/palmRight2.png);
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    right: -370px;
+    top: 550px;
+}
+#palmRight3 {
+	width: 700px;
+    height: 700px;
+    margin-bottom: 200px;
+    background-image: url(../images/palmRight3.png);
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    right: -250px;
+    top: 1200px;
+}
+#palmRight4 {
+	width: 800px;
+    height: 800px;
+    margin-bottom: 200px;
+    background-image: url(../images/palmRight2.png);
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    right: -370px;
+    top: 1850px;
+}
+#palmRight5 {
+	width: 700px;
+    height: 700px;
+    margin-bottom: 200px;
+    background-image: url(../images/palmRight3.png);
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    right: -250px;
+    top: 2400px;
+}
+#palmRight6 {
+	width: 500px;
+    height: 500px;
+    margin-bottom: 200px;
+    background-image: url(../images/palmRight1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: -80px;
+    top: 3300px;
+}
+#palmRight7 {
+	width: 800px;
+    height: 800px;
+    margin-bottom: 200px;
+    background-image: url(../images/palmRight2.png);
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    right: -370px;
+    top: 3700px;
+}
+#palmRight8 {
+	width: 700px;
+    height: 700px;
+    margin-bottom: 200px;
+    background-image: url(../images/palmRight3.png);
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    right: -250px;
+    top: 4400px;
+}
+#palmRight9 {
+	width: 800px;
+    height: 800px;
+    margin-bottom: 200px;
+    background-image: url(../images/palmRight2.png);
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    right: -370px;
+    top: 5000px;
+}
+
+#bananaLeavesLeft {
+	width: 900px;
+    height: 900px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+#banana1 {
+	width: 800px;
+    height: 800px;
+    margin-bottom: 200px;
+    background-image: url(../images/bananaLeafLeft.png);
+    background-size: contain;
+    position: absolute;
+    left: -150px;
+    top: 800px;
+    background-repeat: no-repeat;
+    -webkit-transform-origin: 0% 100%;
+    -moz-transform-origin: 0% 100%;
+    -ms-transform-origin: 0% 100%;
+    -o-transform-origin: 0% 100%;
+    transform-origin: 0% 100%;
+}
+#banana4 {
+	width: 800px;
+    height: 800px;
+    margin-bottom: 200px;
+    background-image: url(../images/bananaLeafLeft.png);
+    background-size: contain;
+    position: absolute;
+    left: -150px;
+    top: 2200px;
+    background-repeat: no-repeat;
+    -webkit-transform-origin: 0% 100%;
+    -moz-transform-origin: 0% 100%;
+    -ms-transform-origin: 0% 100%;
+    -o-transform-origin: 0% 100%;
+    transform-origin: 0% 100%;
+}
+#banana6 {
+	width: 1300px;
+    height: 1300px;
+    margin-bottom: 200px;
+    background-image: url(../images/bananaLeafLeft.png);
+    background-size: contain;
+    position: absolute;
+    left: -170px;
+    top: 3300px;
+    background-repeat: no-repeat;
+    -webkit-transform-origin: 0% 100%;
+    -moz-transform-origin: 0% 100%;
+    -ms-transform-origin: 0% 100%;
+    -o-transform-origin: 0% 100%;
+    transform-origin: 0% 100%;
+}
+#banana8 {
+	width: 1300px;
+    height: 1300px;
+    margin-bottom: 200px;
+    background-image: url(../images/bananaLeafLeft.png);
+    background-size: contain;
+    position: absolute;
+    left: -170px;
+    top: 3550px;
+    background-repeat: no-repeat;
+    -webkit-transform-origin: 0% 100%;
+    -moz-transform-origin: 0% 100%;
+    -ms-transform-origin: 0% 100%;
+    -o-transform-origin: 0% 100%;
+    transform-origin: 0% 100%;
+}
+#bananaLeavesRight {
+	width: 900px;
+    height: 900px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+#banana2 {
+	width: 700px;
+    height: 700px;
+    margin-bottom: 200px;
+    background-image: url(../images/bananaLeafRight.png);
+    background-size: contain;
+    position: absolute;
+    right: -100px;
+    top: 340px;
+    background-repeat: no-repeat;
+    -webkit-transform-origin: 100% 100%;
+    -moz-transform-origin: 100% 100%;
+    -ms-transform-origin: 100% 100%;
+    -o-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+}
+#banana3 {
+	width: 700px;
+    height: 700px;
+    margin-bottom: 200px;
+    background-image: url(../images/bananaLeafRight.png);
+    background-size: contain;
+    position: absolute;
+    right: -100px;
+    top: 1500px;
+    background-repeat: no-repeat;
+    -webkit-transform-origin: 100% 100%;
+    -moz-transform-origin: 100% 100%;
+    -ms-transform-origin: 100% 100%;
+    -o-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+}
+#banana5 {
+	width: 700px;
+    height: 700px;
+    margin-bottom: 200px;
+    background-image: url(../images/bananaLeafRight.png);
+    background-size: contain;
+    position: absolute;
+    right: -100px;
+    top: 2800px;
+    background-repeat: no-repeat;
+    -webkit-transform-origin: 100% 100%;
+    -moz-transform-origin: 100% 100%;
+    -ms-transform-origin: 100% 100%;
+    -o-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+}
+#banana7 {
+	width: 1300px;
+    height: 1300px;
+    margin-bottom: 200px;
+    background-image: url(../images/bananaLeafRight.png);
+    background-size: contain;
+    position: absolute;
+    right: -100px;
+    top: 3350px;
+    background-repeat: no-repeat;
+    -webkit-transform-origin: 100% 100%;
+    -moz-transform-origin: 100% 100%;
+    -ms-transform-origin: 100% 100%;
+    -o-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+}
+#banana9 {
+	width: 1300px;
+    height: 1300px;
+    margin-bottom: 200px;
+    background-image: url(../images/bananaLeafRight.png);
+    background-size: contain;
+    position: absolute;
+    right: -100px;
+    top: 3600px;
+    background-repeat: no-repeat;
+    -webkit-transform-origin: 100% 100%;
+    -moz-transform-origin: 100% 100%;
+    -ms-transform-origin: 100% 100%;
+    -o-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+}
+#flowersLeft {
+	width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+#bigLeft {
+	width: 500px;
+    height: 500px;
+    margin-bottom: 200px;
+    background-image: url(../images/flowerBigLeft.png);
+    background-size: contain;
+    position: absolute;
+    left: -50px;
+    top: 200px;
+    background-repeat: no-repeat;
+}
+#bigLeft2 {
+	width: 500px;
+    height: 500px;
+    margin-bottom: 200px;
+    background-image: url(../images/flowerBigLeft.png);
+    background-size: contain;
+    position: absolute;
+    left: -50px;
+    top: 3000px;
+    background-repeat: no-repeat;
+}
+#bigLeft3 {
+	width: 500px;
+    height: 500px;
+    margin-bottom: 200px;
+    background-image: url(../images/flowerBigLeft.png);
+    background-size: contain;
+    position: absolute;
+    left: -50px;
+    top: 4200px;
+    background-repeat: no-repeat;
+}
+#smallLeft {
+	width: 400px;
+    height: 400px;
+    margin-bottom: 200px;
+    background-image: url(../images/flowerSmallLeft.png);
+    background-size: contain;
+    position: absolute;
+    left: -50px;
+    top: 1500px;
+    background-repeat: no-repeat;
+}
+#smallLeft2 {
+	width: 400px;
+    height: 400px;
+    margin-bottom: 200px;
+    background-image: url(../images/flowerSmallLeft.png);
+    background-size: contain;
+    position: absolute;
+    left: -50px;
+    top: 3850px;
+    background-repeat: no-repeat;
+}
+#flowersRight {
+	width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+#bigRight {
+	width: 500px;
+    height: 500px;
+    margin-bottom: 200px;
+    background-image: url(../images/flowerBigRight.png);
+    background-size: contain;
+    position: absolute;
+    right: -50px;
+    top: 1000px;
+    background-repeat: no-repeat;
+}
+#smallRight {
+	width: 500px;
+    height: 500px;
+    margin-bottom: 200px;
+    background-image: url(../images/flowerSmallRight.png);
+    background-size: contain;
+    position: absolute;
+    right: -150px;
+    top: 2000px;
+    background-repeat: no-repeat;
+}
+#bigRight2 {
+	width: 500px;
+    height: 500px;
+    margin-bottom: 200px;
+    background-image: url(../images/flowerBigRight.png);
+    background-size: contain;
+    position: absolute;
+    right: -50px;
+    top: 3500px;
+    background-repeat: no-repeat;
+}
+#contactInfo {
+	font-family: Beauty;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 65px;
+}
+#contactText {
+	font-family: Lane;
+	font-size: 18px;
+	text-align: center;
+	color: white;
+	margin-top: 10px;
+	line-height: 24px;
+	/*position: absolute;
+	top: 530px;
+	right: 100px;*/
+}
+#education {
+	font-family: Beauty;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 70px;
+}
+#educationText {
+	font-family: Lane;
+	font-size: 18px;
+	text-align: center;
+	color: white;
+	margin-top: 6px;
+	line-height: 24px;
+	/*position: absolute;
+	top: 530px;
+	right: 100px;*/
+}
+#employment {
+	font-family: Beauty;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 65px;
+}
+#employmentText {
+	font-family: Lane;
+	font-size: 18px;
+	text-align: center;
+	color: white;
+	margin-top: 10px;
+	line-height: 24px;
+	/*position: absolute;
+	top: 530px;
+	right: 100px;*/
+}
+#activities {
+	font-family: Beauty;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 70px;
+}
+#activitiesText {
+	font-family: Lane;
+	font-size: 18px;
+	text-align: center;
+	color: white;
+	margin-top: 10px;
+	line-height: 24px;
+	/*position: absolute;
+	top: 530px;
+	right: 100px;*/
+}
+#skills {
+	font-family: Beauty;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 40px;
+}
+#skillsText {
+	font-family: Lane;
+	font-size: 18px;
+	text-align: center;
+	color: white;
+	margin-top: 10px;
+	line-height: 24px;
+	/*position: absolute;
+	top: 530px;
+	right: 100px;*/
+}
+
+
+
+
+
+
+
+
