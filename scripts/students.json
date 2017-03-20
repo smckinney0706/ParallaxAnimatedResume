@@ -1,0 +1,53 @@
+{
+	"Students":[
+		{
+			"First": "Mary",
+			"Last": "Lamb",
+			"GPA": "3.2",
+			"Classification": "Senior",
+			"Major": "Illustration"
+		},
+		{
+			"First": "John",
+			"Last": "Wick",
+			"GPA": "3.0",
+			"Classification": "Junior",
+			"Major": "Graphic Design"
+		},
+		{
+			"First": "Remington",
+			"Last": "Pencilton III",
+			"GPA": "5.0",
+			"Classification": "Sophmore",
+			"Major": "Quantum Mechanics"
+		},
+		{
+			"First": "Stephanie",
+			"Last": "Jackson",
+			"GPA": "3.2",
+			"Classification": "Freshman",
+			"Major": "Bussiness Management"
+		},
+		{
+			"First": "George",
+			"Last": "Carter",
+			"GPA": "4.0",
+			"Classification": "Senior",
+			"Major": "Biology"
+		},
+		{
+			"First": "Grace",
+			"Last": "Stowman",
+			"GPA": "3.8",
+			"Classification": "Sophmore",
+			"Major": "Foreign Language"
+		},
+		{
+			"First": "Peter",
+			"Last": "Piper",
+			"GPA": "2.0",
+			"Classification": "Senior",
+			"Major": "Pickled Peppers"
+		}
+	]
+}

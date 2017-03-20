@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Students with JSON</title>
+
+	<style type="text/css">
+		h3:nth-child(odd){
+			background-color: #fff;
+		}
+		h3:nth-child(even){
+			background-color: green;
+			color: white;
+		}
+		h3{
+			border-bottom: 3px solid black;
+		}
+		#contentBox1 {
+			width: 300px;
+			position: absolute;
+			left: 10px;
+			top: 110px;
+			
+		}
+		#contentBox2 {
+			width: 300px;
+			position: absolute;
+			left: 300px;
+			top: 110px;
+			
+		}
+		#contentBox3 {
+			width: 100px;
+			position: absolute;
+			left: 600px;
+			top: 110px;
+			
+		}
+		#loadBtn {
+			margin-right: 200px;
+			border: 1px solid green;
+			color: green;
+			border-radius: 3px;
+			background-color: white;
+		}
+		#loadBtn2 {
+			margin-right: 210px;
+			border: 1px solid green;
+			color: green;
+			border-radius: 3px;
+			background-color: white;
+		}
+		#loadBtn3 {
+			
+			border: 1px solid green;
+			color: green;
+			border-radius: 3px;
+			background-color: white;
+		}
+		hr {
+			border-color: green;
+			background-color: green;
+		}
+		#container {
+			width: 690px;
+			
+		}
+	</style>
+
+</head>
+
+
+<body>
+
+<div id="container">
+	<h1>Student Information Sheet</h1>
+
+	<hr>
+
+	<button id="loadBtn">Load Names</button>
+	<button id="loadBtn2">Load Major</button>
+	<button id="loadBtn3">Load GPA</button>
+
+	<div id="contentBox1">
+		
+		
+		
+	</div>
+	<div id="contentBox2">
+		
+		
+		
+	</div>
+	<div id="contentBox3">
+		
+		
+		
+	</div>
+
+	<hr>
+</div>
+
+<script src="scripts/jquery.js"></script>
+<script>
+	$("#loadBtn").click(function(){
+		// $("#contentBox").load("scripts/myText.txt");
+		$.getJSON("scripts/students.json", function(data){
+			// $("#contentBox").html(data.Students[0].First);
+
+			for(var i=0; i<data.Students.length; i++){
+				document.getElementById("contentBox1").innerHTML += "<h3>" + String(data.Students[i].First) + " " + String(data.Students[i].Last) + "</h3>";
+			}
+			// $("h3:nth-child(even)").css("background-color", "#ddd")
+		});
+	});
+
+	$("#loadBtn2").click(function(){
+		// $("#contentBox").load("scripts/myText.txt");
+		$.getJSON("scripts/students.json", function(data){
+			// $("#contentBox").html(data.Students[0].First);
+
+			for(var i=0; i<data.Students.length; i++){
+				document.getElementById("contentBox2").innerHTML += "<h3>" + String(data.Students[i].Major) + "</h3>";
+			}
+			// $("h3:nth-child(even)").css("background-color", "#ddd")
+		});
+	});
+
+	$("#loadBtn3").click(function(){
+		// $("#contentBox").load("scripts/myText.txt");
+		$.getJSON("scripts/students.json", function(data){
+			// $("#contentBox").html(data.Students[0].First);
+
+			for(var i=0; i<data.Students.length; i++){
+				document.getElementById("contentBox3").innerHTML += "<h3>" + String(data.Students[i].GPA) + "</h3>";
+			}
+			// $("h3:nth-child(even)").css("background-color", "#ddd")
+		});
+	});
+</script>
+	
+</body>
+</html>
