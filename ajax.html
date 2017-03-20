@@ -36,6 +36,13 @@
 			top: 110px;
 			
 		}
+		#contentBox4 {
+			width: 200px;
+			position: absolute;
+			left: 700px;
+			top: 110px;
+			
+		}
 		#loadBtn {
 			margin-right: 200px;
 			border: 1px solid green;
@@ -51,6 +58,13 @@
 			background-color: white;
 		}
 		#loadBtn3 {
+			margin-right: 50px;
+			border: 1px solid green;
+			color: green;
+			border-radius: 3px;
+			background-color: white;
+		}
+		#loadBtn4 {
 			
 			border: 1px solid green;
 			color: green;
@@ -62,8 +76,8 @@
 			background-color: green;
 		}
 		#container {
-			width: 690px;
-			
+			width: 890px;
+
 		}
 	</style>
 
@@ -80,6 +94,7 @@
 	<button id="loadBtn">Load Names</button>
 	<button id="loadBtn2">Load Major</button>
 	<button id="loadBtn3">Load GPA</button>
+	<button id="loadBtn4">Load Class</button>
 
 	<div id="contentBox1">
 		
@@ -92,6 +107,11 @@
 		
 	</div>
 	<div id="contentBox3">
+		
+		
+		
+	</div>
+	<div id="contentBox4">
 		
 		
 		
@@ -133,6 +153,17 @@
 
 			for(var i=0; i<data.Students.length; i++){
 				document.getElementById("contentBox3").innerHTML += "<h3>" + String(data.Students[i].GPA) + "</h3>";
+			}
+			// $("h3:nth-child(even)").css("background-color", "#ddd")
+		});
+	});
+	$("#loadBtn4").click(function(){
+		// $("#contentBox").load("scripts/myText.txt");
+		$.getJSON("scripts/students.json", function(data){
+			// $("#contentBox").html(data.Students[0].First);
+
+			for(var i=0; i<data.Students.length; i++){
+				document.getElementById("contentBox4").innerHTML += "<h3>" + String(data.Students[i].Classification) + "</h3>";
 			}
 			// $("h3:nth-child(even)").css("background-color", "#ddd")
 		});
